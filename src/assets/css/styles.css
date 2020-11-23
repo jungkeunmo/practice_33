@@ -1,0 +1,53 @@
+@import "./reset.css";
+
+.screen {
+    width: 100%;
+    height: 625px;
+
+    display: flex;
+    flex-direction: row;
+} 
+
+.screen .screen__col1 {
+    width: 70%;
+    height: 625px;
+
+    display: flex;
+    flex-direction: column;
+} 
+
+.screen .screen__col1 .screen__col1__sec1 {
+    width: 100%;
+    height: 225px;
+
+    background-color: aquamarine;
+} 
+
+.screen .screen__col1 .screen__col1__sec2 {
+    width: 100%;
+    height: 400px;
+
+    background-color: aqua;
+} 
+
+.screen .screen__col2 {
+    width: 30%;
+    height: 625px;
+
+    display: flex;
+    flex-direction: row;
+} 
+
+.screen .screen__col2 .screen__col2__a1 {
+    width: 70%;
+    height: 625px;
+
+    background-color: blueviolet;
+} 
+
+.screen .screen__col2 .screen__col2__a2 {
+    width: 30%;
+    height: 625px;
+
+    background-color: chartreuse;
+} 
